@@ -76,7 +76,7 @@
             android:id="@+id/producthighlight"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="PRODUCT HIGHLIGHTS"
+            android:text="PRODUCT  HIGHLIGHTS"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="#343434"
