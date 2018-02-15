@@ -69,7 +69,7 @@
             android:layout_width="fill_parent"
             android:layout_height="33dp"
             android:background="@drawable/border_top_bottom"
-            android:text="Change"
+            android:text="changechange"
             android:textColor="#e46493"
             android:paddingBottom="3dp"/>
         <TextView
