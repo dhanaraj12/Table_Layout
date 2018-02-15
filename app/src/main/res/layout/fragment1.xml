@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="106dp"
+    android:layout_height="250dp"
+    card_view:cardCornerRadius="0dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/lineralayout2"
+        android:background="@drawable/my_custom_background"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/productimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ashton5in1convertiblecrib" />
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ashton Convertible Crib"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productrate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="$205.66"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            style="@style/foodRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productrate"
+            android:layout_marginLeft="20dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:paddingTop="5dip"
+            android:rating="0.5" />
+
+        <TextView
+            android:id="@+id/productrating"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="5.0 (3 Rating)"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:paddingBottom="3dp"/>
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/border_top_bottom"
+            android:text="Change"
+            android:textColor="#e46493"
+            android:paddingBottom="3dp"/>
+        <TextView
+            android:id="@+id/producthighlight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT HIGHLIGHTS"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:paddingBottom="3dp"/>
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:background="@drawable/border_top_bottom"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:paddingBottom="3dp"/>
+        <TextView
+            android:id="@+id/colortype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blush Pink,Grey,White"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:paddingBottom="3dp"/>
+        <TextView
+            android:id="@+id/upccode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="UPC CODE"
+            android:background="@drawable/border_top_bottom"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="12sp"
+            android:paddingBottom="3dp"/>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
